@@ -1,0 +1,18 @@
+<!-- note.html -->
+
+{% extends "homeapp/header.html" %}
+
+{% block content_title %}
+    <span class="glyphicon glyphicon-grain">
+    <span class="glyphicon glyphicon-grain">
+    <span class="glyphicon glyphicon-grain">
+    <span class="glyphicon glyphicon-grain">
+    <span class="glyphicon glyphicon-grain">
+{% endblock %}
+
+{% block content %}
+    <h3>{{object.title}}</h3>
+    <h6>on {{object.modified_at}} UTC</h6>
+        <br>
+        <p>{{object.text|safe|linebreaks}}</p>
+{% endblock %}

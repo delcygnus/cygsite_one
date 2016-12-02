@@ -1,0 +1,19 @@
+<!-- notes.html -->
+
+{% extends "homeapp/header.html" %}
+
+{% block content_title %}
+    List of Notes
+{% endblock %}
+
+{% block content %}
+
+    {% for note in object_list %}
+        <h4><small>{{ note.modified_at|date:"Y-m-d" }} UTC</small>
+        <a href="/notes/{{note.id}}"> {{ note.title }}</a></h4>
+    {% empty %}
+        <h4>No notes yet.</h4>
+    {% endfor %}
+
+{% endblock %}
+

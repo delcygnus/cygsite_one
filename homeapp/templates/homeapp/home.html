@@ -1,0 +1,25 @@
+<!-- index.html -->
+<!-- home.html -->
+
+{% extends "homeapp/header.html" %}
+
+{% block content_title %}
+    Base CCS Page
+{% endblock %}
+
+
+{% block content %}
+
+{% include "homeapp/includes/separator_inc.html" %}
+<p>
+<strong>This site</strong>
+    is my testbed for experimenting with Django and Bootstrap.
+    You can re-size your browser window and see how well
+    <em>Bootstrap</em> and <em>CSS</em> do at re-arranging the web page elements.
+    This is better and more interesting to watch on the art pages.
+    And it's even better if you have a large screen monitor.
+</p>
+{% include "homeapp/includes/separator_inc.html" %}
+
+{% endblock %}
+

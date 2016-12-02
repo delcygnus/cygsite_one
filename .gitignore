@@ -1,0 +1,8 @@
+.direnv/
+.envrc
+.idea/
+*.pyc
+*.gif
+*.ico
+*.jpg
+*.png
