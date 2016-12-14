@@ -6,3 +6,6 @@
 *.ico
 *.jpg
 *.png
+*.out
+uwsgi_params
+static/*

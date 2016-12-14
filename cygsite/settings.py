@@ -25,7 +25,7 @@ SECRET_KEY = 'iwtpz1(%hp9_4^lp#r!08c-%0f_7qw$u#s9n#m4l+j^80eh#w$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["192.168.0.100"]
 
 
 # Application definition
@@ -120,4 +120,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
+# Location for: $ python manage.py collectstatic
+# Name "static" must match /static/ in nginx.conf
+STATIC_ROOT = "/home/rniven/django-web/cygsite/static/"
 STATIC_URL = '/static/'
