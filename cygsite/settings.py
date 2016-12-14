@@ -25,7 +25,7 @@ SECRET_KEY = 'iwtpz1(%hp9_4^lp#r!08c-%0f_7qw$u#s9n#m4l+j^80eh#w$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["192.168.0.100"]
+ALLOWED_HOSTS = ["192.168.0.100", "127.0.0.1"]
 
 
 # Application definition
