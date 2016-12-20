@@ -7,6 +7,6 @@
 *.jpg
 *.png
 *.out
-uwsgi_params
+cygsite/settings.py
 static/*
 
