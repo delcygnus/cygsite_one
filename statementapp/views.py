@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+# statementapp view method.
+def statementapp(request):
+    return render(request, 'statementapp/statement.html')
