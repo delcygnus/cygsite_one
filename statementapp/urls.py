@@ -4,5 +4,5 @@ from . import views
 
 # Route statementapp urls through this view method
 urlpatterns = [
-    url(r'^', views.artapp, name='statementapp' ),
+    url(r'^', views.statementapp, name='statementapp' ),
 ]
