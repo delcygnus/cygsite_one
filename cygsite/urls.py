@@ -6,5 +6,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^art---', include('artapp.urls')),
     url(r'^notes/', include('notesapp.urls')),
+    url(r'^privacy', include('statementapp.urls')),
     url(r'^', include('homeapp.urls')),
 ]
